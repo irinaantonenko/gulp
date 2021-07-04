@@ -1,0 +1,27 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    &__wrap{
+        height: 100px;
+    }
+    &__text{
+        height: 100px;
+        width: 200px;
+    }
+}
+.mouse{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    &__wrap{
+        height: 100px;
+    }
+}
